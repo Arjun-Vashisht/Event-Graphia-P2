@@ -83,7 +83,7 @@
   .bottom-left5 {
     position: absolute;
     width: 30px;
-    bottom: 110px;
+    bottom: 130px;
     right: 80px;
     color: rgb(208, 206, 206);
     font-weight: 400;
@@ -96,7 +96,7 @@
     width: 50px !important;
     max-width: max-content;
     height: 30px;
-    bottom: 220px;
+    bottom: 225px;
     left: 40px;
     color: rgb(208, 206, 206);
     font-weight: 400;
@@ -106,7 +106,7 @@
 
   .bottom-left7 {
     position: absolute;
-    bottom: 215px;
+    bottom: 220px;
     left: 90px;
     font-weight: 600;
     color: white;
