@@ -35,6 +35,129 @@
 
 }
 
+.bottom-left {
+    position: absolute;
+    bottom: 90px;
+    left: 36px;
+    color: white;
+    font-weight: bolder;
+    font-size: 2rem;
+  }
+
+.bottom-left2 {
+    position: absolute;
+    bottom: 70px;
+    left: 36px;
+    color: rgb(208, 206, 206);
+    font-weight: 400;
+    font-size: 0.9rem;
+  }
+
+  .bottom-left2 span {
+    color: rgb(208, 206, 206);
+    font-weight: 400;
+    font-size: 0.9rem;
+  }
+
+  .bottom-left3 {
+    position: absolute;
+    bottom: 22px;
+    width: 90px;
+    left: 36px;
+    color: rgb(208, 206, 206);
+    font-weight: 400;
+    font-size: 1rem;
+  }
+
+  .bottom-left4 {
+    position: absolute;
+    width: 30px;
+    bottom: 30px;
+    left: 136px;
+    color: rgb(208, 206, 206);
+    font-weight: 400;
+    font-size: 0.9rem;
+    opacity: 50%;
+  }
+
+  .bottom-left5 {
+    position: absolute;
+    width: 30px;
+    bottom: 110px;
+    right: 80px;
+    color: rgb(208, 206, 206);
+    font-weight: 400;
+    font-size: 0.9rem;
+  }
+
+  .bottom-left6 {
+    display: flex;
+    position: absolute;
+    width: 50px !important;
+    max-width: max-content;
+    height: 30px;
+    bottom: 220px;
+    left: 40px;
+    color: rgb(208, 206, 206);
+    font-weight: 400;
+    font-size: 0.9rem;
+    opacity: 70%;
+  }
+
+  .bottom-left7 {
+    position: absolute;
+    bottom: 215px;
+    left: 90px;
+    font-weight: 600;
+    color: white;
+    font-size: small;
+  }
+
+
+  .artBelow1 {
+    position: absolute;
+    width: 120px !important;
+    top: 90px;
+    left: 20px;
+    color: white;
+    font-weight: 600;
+    font-size: 0.8rem;
+  }
+
+  .artBelow2 {
+    position: absolute;
+    width: 100px !important;
+    top: 110px;
+    left: 25px;
+    color: white;
+    font-weight: 700;
+    font-size: 0.8rem;
+  }
+
+  .artBelow3 {
+    position: absolute;
+    width: 70px !important;
+    height: 20px !important;
+    top: 130px;
+    left: 25px;
+    color: rgb(208, 206, 206);
+    font-weight: 700;
+    font-size: 0.8rem;
+    opacity: 60%;
+  }
+
+  .artBelow4 {
+    position: absolute;
+    width: 30px !important;
+    height: 30px !important;
+    top: 0px;
+    left: 95px;
+    color: rgb(208, 206, 206);
+    font-weight: 700;
+    font-size: 0.8rem;
+    opacity: 50%;
+  }
+
 span {
     padding: 10px;
     color: gray;
@@ -61,12 +184,22 @@ span {
 
 #menu {
     color: black !important;
+    display: flex;
+}
+
+.redBar {
+    width: 7px;
+    height: 80%;
+    background-color: red;
+    margin-left: 8.3rem;
+    margin-top: 3px;
 }
 
 .jumanImg {
     width: 95%;
     height: 28%;
     padding: 2%;
+    position: relative;
 }
 
 .jumanImg img {
