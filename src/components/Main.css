@@ -1,0 +1,106 @@
+* {
+    overflow: hidden;
+}
+
+.mainDiv {
+    display: flex;
+}
+
+#firstCol {
+    width: 15%;
+    border-right: 1px solid grey;
+    height: 100vh;
+    display: flex;
+    padding-right: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 6%;
+}
+
+#secCol {
+    width: 55%;
+    border-right: 1px solid grey;
+    padding-left: 4%;
+    padding-top: 2%;
+    padding-right: 3%;
+}
+
+#thirdCol {
+    width: 10%;
+    padding-left: 3%;
+    padding-top: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+span {
+    padding: 10px;
+    color: gray;
+    font-weight: 500;
+    font-size: medium;
+}
+
+#movie {
+    color: black !important;
+}
+
+.menuDiv {
+    color: darkgrey;
+    font-size: small;
+    padding: 20px 0;
+}
+
+.subMenu {
+    padding-bottom: 15px;
+    color: gray;
+    font-weight: 500;
+    width: 100%;
+}
+
+#menu {
+    color: black !important;
+}
+
+.jumanImg {
+    width: 100%;
+    height: 35%;
+    padding: 2%;
+}
+
+.jumanImg img {
+    width: 93%;
+    border-radius: 30px;
+    height: 100%;
+}
+
+.artistImg {
+    display: flex;
+    height: 30%;
+    width: 100%;
+}
+
+.artistImg div {
+    width: 21%;
+    margin: 10px;
+}
+
+.artistImg div img {
+    height: 90%;
+    padding: 10px;
+    border-radius: 30px;
+    width: 92%;
+}
+
+.artistLabel {
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    color: gray;
+    font-weight: 600;
+}
+
+input {
+    width: 90%;
+}
