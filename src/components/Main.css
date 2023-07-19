@@ -1,6 +1,6 @@
-* {
+/* * {
     overflow: hidden;
-}
+} */
 
 .mainDiv {
     display: flex;
@@ -8,7 +8,7 @@
 
 #firstCol {
     width: 15%;
-    border-right: 1px solid grey;
+    
     height: 100vh;
     display: flex;
     padding-right: 0;
@@ -20,15 +20,15 @@
 #secCol {
     width: 55%;
     border-right: 1px solid grey;
+    border-left: 1px solid grey;
     padding-left: 4%;
-    padding-top: 2%;
-    padding-right: 3%;
+    padding-top: 1%;
 }
 
 #thirdCol {
     width: 10%;
     padding-left: 3%;
-    padding-top: 2%;
+    padding-top: 1%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -64,8 +64,8 @@ span {
 }
 
 .jumanImg {
-    width: 100%;
-    height: 35%;
+    width: 95%;
+    height: 28%;
     padding: 2%;
 }
 
@@ -77,25 +77,26 @@ span {
 
 .artistImg {
     display: flex;
-    height: 30%;
+    height: 22%;
     width: 100%;
 }
 
 .artistImg div {
-    width: 21%;
+    width: 20%;
     margin: 10px;
+    height: 90%;
 }
 
 .artistImg div img {
-    height: 90%;
-    padding: 10px;
-    border-radius: 30px;
-    width: 92%;
+    height: 95%;
+    padding: 6px;
+    border-radius: 20px;
+    width: 90%;
 }
 
 .artistLabel {
     display: flex;
-    width: 95%;
+    width: 90%;
     justify-content: space-between;
     color: gray;
     font-weight: 600;
@@ -103,4 +104,66 @@ span {
 
 input {
     width: 90%;
+    border-radius: 10px;
+    height: 20px;
+    margin-bottom: 15px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7OAPC7-z4Gm7ChPe6mCN0uJPssLrej9cq3Q&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: 0.2rem;
+    text-indent: 20px;
+}
+
+.pending {
+    display: flex;
+    width: 100%;
+    color: gray;
+    font-size: medium;
+    font-weight: 700;
+}
+
+.pending div {
+    border: 1px solid grey;
+    width:28%;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.pending div img {
+    width: 100%;
+    height: 50%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.popular {
+    display: flex;
+    max-width: max-content;
+    margin-top: 5px;
+    width: 100%;
+   justify-content: space-between;
+
+}
+
+.popText {
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+    color: gray;
+    padding-left: 7px;
+    max-width: max-content;
+    width: 90%;
+    justify-content: space-between;
+}
+
+button {
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(240, 58, 58);
+    color: white;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
 }
